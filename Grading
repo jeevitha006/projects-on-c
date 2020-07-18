@@ -1,0 +1,34 @@
+/*program to calculate grade based on student marks*/
+void main()
+{
+char name[30];
+int marks;
+printf("Enter your name: ");
+scanf("%s",&name);
+printf("Enter marks: ");
+scanf("%d",&marks);
+if(marks>=85 && marks<=100)
+{
+printf("you have secured grade A");
+}
+else if(marks>=70 && marks<=84)
+{
+printf("you have secured grade B");
+}
+else if(marks>=55 && marks<=69)
+{
+printf("you have secured grade C");
+}
+else if(marks>=40 && marks<=54)
+{
+printf("you have secured grade D");
+}
+else
+{
+printf("you have secured grade F");
+}
+return 0;
+}
+
+
+ 
